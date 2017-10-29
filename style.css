@@ -1,0 +1,41 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+body {
+  background-color: #95B9C7;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.container {
+  justify-content: center;
+  text-align: center;
+}
+
+#iArabic {
+  margin-top: 50px;
+  width: 400px;
+}
+#bConverter {
+  width: 400px;
+  height: 70px;
+}
+
+#bConverter:hover {
+  background-color: black;
+}
+
+#resultBox {
+  overflow:hidden
+  padding: 5px;
+  width: 400px;
+  height: auto;
+  margin: auto;
+  background-color: #C2DFFF;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-top: 20px;
+  text-align: center;
+}
